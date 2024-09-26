@@ -1,0 +1,78 @@
+{
+    "skills": [
+      {
+        "id": "1",
+        "src": "./img/product-chain-1.png",
+        "title": "Front-End",
+        "description": "I do Front-End Development with HTML, CSS, Javascript and React, and I'm always looking to learn new technologies."
+      },
+      {
+        "id": "2",
+        "src": "./img/tag-1.png",
+        "title": "Back-End",
+        "description": "Also I do Back-End Development with Node.js, Express, and MongoDB, and other technologies too."
+      },
+      {
+        "id": "3",
+        "src": "./img/feather-pen-2.png",
+        "title": "UI & UX Design",
+        "description": "I do some UI and UX Design with Figma and Makeup, and inspiring me to do more."
+      },
+      {
+        "id": "4",
+        "src": "./img/feather-pen-1.png",
+        "title": "Full Stack Development",
+        "description": "I can, also, develop full stack applications with Node.js, Express, React, and MongoDB."
+      }
+    ],
+    "portfolio": [
+      {
+        "id": "1",
+        "src": "./img/placeholder-image.png",
+        "title": "Web Portfolio",
+        "description": "",
+        "link": "View In Github"
+      },
+      {
+        "id": "2",
+        "src": "./img/placeholder-image-1.png",
+        "title": "Ecommerce Dashboard",
+        "description": "",
+        "link": "View In Github"
+      },
+      {
+        "id": "3",
+        "src": "./img/placeholder-image-2.png",
+        "title": "Ecommerce website",
+        "description": "",
+        "link": "View In Github"
+      }
+    ],
+    "testimonial": [
+      {
+        "id": "1",
+        "count": "5",
+        "src": "./img/avatar-image.png",
+        "description": "I have been working with him since 2023. He has been great! He do great work.",
+        "author_name": "Dianne Russel",
+        "author_designation": "Starbucks"
+      },
+      {
+        "id": "2",
+        "count": "5",
+        "src": "./img/avatar-image-1.png",
+        "description": "For the quality of his work, I highly recommend him. He is very professional and has great ideas.",
+        "author_name": "Kristin Watson",
+        "author_designation": "Olivetti"
+      },
+      {
+        "id": "3",
+        "count": "5",
+        "src": "./img/avatar-image-2.png",
+        "description": "I'm satisfyed with his work. He is very professional and has great ideas. You can trust him.",
+        "author_name": "Kathryn Murphy",
+        "author_designation": "Adidas"
+      }
+    ]
+  }
+  

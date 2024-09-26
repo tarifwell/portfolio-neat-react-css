@@ -1,9 +1,6 @@
-// import Hero from '../components/Hero/Hero';
-
 import About from './About/About';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
-// import Header from './Header/Header';
 import Hero from './Hero/Hero';
 import Portfolio from './Portfolio/Portfolio';
 import Skills from './Skills/Skills';
@@ -14,10 +11,8 @@ export default function Home () {
         <>
             {/* Home Sections */}
             <Hero />
-            {/* <Header /> */}
-            <Hero />
             <Skills />
-            <About />            
+            <About />
             <Portfolio />
             <Testimonials />
             <Contact />
