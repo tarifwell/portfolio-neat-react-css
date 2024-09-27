@@ -5,14 +5,14 @@ import './Portfolio.css';
 
 const Portfolio = () => {
   return (
-    <section className="portfolioSection" id="MyPortfolio">
+    <section id="portfolio" className="portfolio-section">
       <div className="portfolio__container-box">
         <div className="portfolio__container">
           <p className="sub-title">Recent Projects</p>
-          <h2 className="skillsSection__heading">My Portfolio</h2>
+          <h2 className="skills-section__heading">My Portfolio</h2>
         </div>
         <div>
-          <button className="btn btn-github">
+          <button className="btn btn--github">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -32,18 +32,18 @@ const Portfolio = () => {
           </button>
         </div>
       </div>
-      <div className="portfolioSection__container">
+      <div className="portfolio-section__container">
         {data?.portfolio?.map((item, index) => (
-          <div key={index} className="portfolioSection__card">
-            <div className="portfolioSection-img">
+          <div key={index} className="portfolio-section__card">
+            <div className="portfolio-section__img">
               <img src={item.src} alt="Placeholder" />
             </div>
-            <div className="portfolioSection__card-content">
+            <div className="portfolio-section__card-content">
               <div>
-                <h3 className="portfolioSection-title">{item.title}</h3>
+                <h3 className="portfolio-section__title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
-              <p className="text-sm portfolio-link">
+              <p className="text-sm portfolio__link">
                 {item.link}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -5,7 +5,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="footer__container">
+    <footer id="footer" className="footer__container">
       <div className="footer__link-container">
         <div>
           <img src="./img/logo_nav_1.png" alt="Logoipsum" />
@@ -14,12 +14,12 @@ const Footer = () => {
           <ul>
             <li>
               <Link
-                activeClass="navbar-active-content"
+                activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="heroSection"
+                to="hero"
                 className="text-md"
               >
                 Home
@@ -27,12 +27,12 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                activeClass="navbar-active-content"
+                activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="MyPortfolio"
+                to="portfolio"
                 className="text-md"
               >
                 Portfolio
@@ -40,12 +40,12 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                activeClass="navbar-active-content"
+                activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="AboutMe"
+                to="about"
                 className="text-md"
               >
                 About Me
@@ -53,12 +53,12 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                activeClass="navbar-active-content"
+                activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Contact"
+                to="contact"
                 className="text-md"
               >
                 Contact
@@ -66,7 +66,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                activeClass="navbar-active-content"
+                activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -172,14 +172,14 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <hr className="divider" />
+      <hr className="footer-divider" />
       <div className="footer__content-container">
         <p className="footer__content">Made with 💖 by John</p>
         <div className="footer__social-icon">
           <ul>
             <li>
               <Link
-                activeClass="navbar-active-content"
+                activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -192,7 +192,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                activeClass="navbar-active-content"
+                activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -205,7 +205,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                activeClass="navbar-active-content"
+                activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}

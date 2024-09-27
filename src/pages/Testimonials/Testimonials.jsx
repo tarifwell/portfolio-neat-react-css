@@ -5,17 +5,17 @@ import './Testimonials.css';
 
 const Testimonials = () => {
   return (
-    <section className="testimonialSection" id="testimonial">
+    <section id="testimonial" className="testimonial-section">
       <div className="portfolio__container-box">
         <div className="portfolio__container">
           <p className="sub-title">Clients Feedback</p>
           <h2 className="sections-heading">Customer Feedback</h2>
         </div>
       </div>
-      <div className="portfolioSection__container">
+      <div className="portfolio-section__container">
         {data?.testimonial?.map((item, index) => (
-          <div key={index} className="testimonialSection__card">
-            <div className="testimonialSection__card-review">
+          <div key={index} className="testimonial-section__card">
+            <div className="testimonial-section__card-review">
               {Array.from({ length: 5 }, (reviews, index) => (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +32,7 @@ const Testimonials = () => {
               ))}
             </div>
             <p className="text-md">{item.description}</p>
-            <div className="testimonialSection__card-author-detail">
+            <div className="testimonial-section__card-author-detail">
               <img src={item.src} alt="Avatar" />
               <div>
                 <p className="text-md testimonial-author-name">

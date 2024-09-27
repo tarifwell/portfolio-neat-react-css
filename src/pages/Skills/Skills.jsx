@@ -5,20 +5,20 @@ import './Skills.css';
 
 const Skills = () => {
   return (
-    <section className="skillsSection" id="mySkills">
+    <section id="skills" className="skills-section">
       <div className="portfolio__container">
-        <p className="section-title">My Skills</p>
-        <h2 className="skillsSection__heading">My Expertise</h2>
+        <p className="section__title">My Skills</p>
+        <h2 className="skills-section__heading">My Expertise</h2>
       </div>
-      <div className="skillsSection__container">
+      <div className="skills-section__container">
         {data?.skills?.map((item, index) => (
-          <div key={index} className="skillsSection__card">
-            <div className="skillsSection-img">
+          <div key={index} className="skills-section__card">
+            <div className="skills-section__img">
               <img src={item.src} alt="Product Chain" />
             </div>
-            <div className="skillsSection__card-content">
-              <h3 className="skillsSection-title">{item.title}</h3>
-              <p className="skillsSection__description">{item.description}</p>
+            <div className="skills-section__card-content">
+              <h3 className="skills-section__title">{item.title}</h3>
+              <p className="skills-section__description">{item.description}</p>
             </div>
           </div>
         ))}

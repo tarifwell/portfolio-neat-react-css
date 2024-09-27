@@ -4,7 +4,7 @@ import './Contact.css';
 
 const Contact = () => {
   return (
-    <section id="Contact" className="contactSection">
+    <section id="Contact" className="contact-section">
       <div>
         <p className="sub-title">Get In Touch</p>
         <h2>Contact Me</h2>
@@ -78,7 +78,7 @@ const Contact = () => {
           <span className="text-sm">I accept the terms</span>
         </label>
         <div>
-          <button className="btn btn-primary contact__form-btn">Submit</button>
+          <button className="btn btn--primary contact__form-btn">Submit</button>
         </div>
       </form>
     </section>

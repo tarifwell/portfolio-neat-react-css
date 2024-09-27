@@ -11,8 +11,8 @@ export default function Home () {
         <>
             {/* Home Sections */}
             <Hero />
-            <Skills />
             <About />
+            <Skills />            
             <Portfolio />
             <Testimonials />
             <Contact />
