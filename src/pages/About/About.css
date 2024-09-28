@@ -20,9 +20,7 @@
   .about-section {
     display: flex;
     flex-direction: column;
-  }
-
-  .about-section {
+  
     gap: 20px;
     padding-top: 0;
     padding-bottom: 0;

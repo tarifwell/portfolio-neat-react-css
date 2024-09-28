@@ -22,15 +22,13 @@
   margin-top: 21.333px;
 }
 
-.hero-section__title {
-  color: var(--heading-color);
+.section-heading-hero {
   font-size: 74.667px;
-  font-weight: 700;
   line-height: 90px;
   align-self: stretch;
 }
 
-.hero-section__title-color {
+.section-heading-hero > span {
   color: var(--primary-color);
 }
 

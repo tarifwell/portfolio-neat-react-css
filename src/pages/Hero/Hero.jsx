@@ -7,9 +7,9 @@ const Hero = () => {
     <section id="hero" className="section-container-grid hero-section">
       <div className="hero-section__content-box">
         <div className="hero-section__content">
-          <p className="section__title">Hey, I'm Tarek</p>
-          <h1 className="hero-section__title">
-            <span className="hero-section__title-color">Full Stack</span>{" "}
+          <p className="section-title">Hey, I'm Tarek</p>
+          <h1 className="section-heading section-heading-hero">
+            <span className="hero-section__heading">Full Stack</span>{" "}
             <br />
             Developer
           </h1>

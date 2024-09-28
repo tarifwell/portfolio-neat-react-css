@@ -10,8 +10,8 @@ const About = () => {
       </div>
       <div className="hero-section__content-box">
         <div className="hero-section__content">
-          <p className="section__title">About</p>
-          <h1 className="skills-section__heading">About Me</h1>
+          <p className="section-title">About</p>
+          <h2 className="section-heading">About Me</h2>
           <p className="hero-section__description">
             I'm a Front-End Developer. I'm passionate about coding. 
             New diplomate and curious. I work essentially with HTML, 

@@ -57,7 +57,7 @@
   align-self: stretch;
 }
 
-.portfolio-section__title {
+.portfolio-section__card-title {
   color: var(--heading-color);
 }
 

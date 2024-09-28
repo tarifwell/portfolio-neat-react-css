@@ -8,8 +8,8 @@ const Testimonials = () => {
     <section id="testimonial" className="section-container-flex testimonial-section">
       <div className="portfolio__container-box">
         <div className="portfolio__container">
-          <p className="sub-title">Clients Feedback</p>
-          <h2 className="sections-heading">Customer Feedback</h2>
+          <p className="section-title">Clients Feedback</p>
+          <h2 className="section-heading">Customer Feedback</h2>
         </div>
       </div>
       <div className="portfolio-section__container">

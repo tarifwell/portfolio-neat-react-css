@@ -8,8 +8,8 @@ const Portfolio = () => {
     <section id="portfolio" className="section-container-flex portfolio-section">
       <div className="portfolio__container-box">
         <div className="portfolio__container">
-          <p className="sub-title">Recent Projects</p>
-          <h2 className="skills-section__heading">My Portfolio</h2>
+          <p className="section-title">Recent Projects</p>
+          <h2 className="section-heading">My Portfolio</h2>
         </div>
         <div>
           <button className="btn btn--github">
@@ -40,7 +40,7 @@ const Portfolio = () => {
             </div>
             <div className="portfolio-section__card-content">
               <div>
-                <h3 className="portfolio-section__title">{item.title}</h3>
+                <h3 className="portfolio-section__card-title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
               <p className="text-sm portfolio__link">
