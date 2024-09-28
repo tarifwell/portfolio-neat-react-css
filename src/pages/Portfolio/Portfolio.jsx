@@ -5,7 +5,7 @@ import './Portfolio.css';
 
 const Portfolio = () => {
   return (
-    <section id="portfolio" className="portfolio-section">
+    <section id="portfolio" className="section-container-flex portfolio-section">
       <div className="portfolio__container-box">
         <div className="portfolio__container">
           <p className="sub-title">Recent Projects</p>

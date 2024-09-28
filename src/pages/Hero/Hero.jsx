@@ -4,18 +4,19 @@ import './Hero.css';
 
 const Hero = () => {
   return (
-    <section id="hero" className="hero-section">
+    <section id="hero" className="section-container-grid hero-section">
       <div className="hero-section__content-box">
         <div className="hero-section__content">
-          <p className="section__title">Hey, I'm John</p>
+          <p className="section__title">Hey, I'm Tarek</p>
           <h1 className="hero-section__title">
             <span className="hero-section__title-color">Full Stack</span>{" "}
             <br />
             Developer
           </h1>
           <p className="hero-section__description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            <br /> Dolorum, quas. Amet soluta assumenda cum?
+            I'm a Front-End Developer. I'm passionate about coding.
+            <br /> 
+            Welcome to my portfolio !
           </p>
         </div>
         <button className="btn btn--primary">Get In Touch</button>

@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import { Link } from "react-scroll";
 
-import './Footer.css';
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer id="footer" className="footer__container">
+    <footer id="footer" className="section-container-flex footer-section">
       <div className="footer__link-container">
         <div>
           <img src="./img/logo_nav_1.png" alt="Logoipsum" />
@@ -174,7 +174,7 @@ const Footer = () => {
       </div>
       <hr className="footer-divider" />
       <div className="footer__content-container">
-        <p className="footer__content">Made with 💖 by John</p>
+        <p className="footer__content">Made with 💖 by Tarek</p>
         <div className="footer__social-icon">
           <ul>
             <li>
@@ -221,6 +221,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

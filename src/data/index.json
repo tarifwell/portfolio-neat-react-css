@@ -30,21 +30,21 @@
         "id": "1",
         "src": "./img/placeholder-image.png",
         "title": "Web Portfolio",
-        "description": "",
+        "description": "This web site for portfolio was developed with React.js, CSS and Framer-motion.",
         "link": "View In Github"
       },
       {
         "id": "2",
         "src": "./img/placeholder-image-1.png",
         "title": "Ecommerce Dashboard",
-        "description": "",
+        "description": "Created using React.js and SCSS in front-end and Node.js, Express and MongoDB in back-end.",
         "link": "View In Github"
       },
       {
         "id": "3",
         "src": "./img/placeholder-image-2.png",
         "title": "Ecommerce website",
-        "description": "",
+        "description": "Created using React.js and SCSS in front-end and Node.js, Express and MongoDB in back-end.",
         "link": "View In Github"
       }
     ],

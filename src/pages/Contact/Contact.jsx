@@ -4,7 +4,7 @@ import './Contact.css';
 
 const Contact = () => {
   return (
-    <section id="Contact" className="contact-section">
+    <section id="Contact" className="section-container-flex contact-section">
       <div>
         <p className="sub-title">Get In Touch</p>
         <h2>Contact Me</h2>
@@ -13,7 +13,7 @@ const Contact = () => {
         </p>
       </div>
       <form className="contact__form-container">
-        <div className="container">
+        <div className="contact__first-block-container">
           <label htmlFor="first-name" className="contact__label">
             <span className="text-md">First Name</span>
             <input

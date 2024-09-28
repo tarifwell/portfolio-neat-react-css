@@ -4,7 +4,7 @@ import './About.css';
 
 const About = () => {
   return (
-    <section id="about" className="about-section">
+    <section id="about" className="section-container-grid about-section">
       <div className="about-section__img">
         <img src="./img/about-me.png" alt="About Me" />
       </div>
@@ -13,15 +13,15 @@ const About = () => {
           <p className="section__title">About</p>
           <h1 className="skills-section__heading">About Me</h1>
           <p className="hero-section__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-            recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-            tempora numquam sint odit optio.
+            I'm a Front-End Developer. I'm passionate about coding. 
+            New diplomate and curious. I work essentially with HTML, 
+            CSS, Javascript and React. I do also Back-End Development 
+            with Node.js, Express and MongoDB. I have some works on web, 
+            desktop and mobile development.            
           </p>
           <p className="hero-section__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-            recusandae?
+            Feel free to show my portofolio and to discover more about me.
+            Have a good day and don't hesitate to contact me.
           </p>
         </div>
       </div>

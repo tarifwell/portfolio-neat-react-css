@@ -5,7 +5,7 @@ import './Skills.css';
 
 const Skills = () => {
   return (
-    <section id="skills" className="skills-section">
+    <section id="skills" className="section-container-flex skills-section">
       <div className="portfolio__container">
         <p className="section__title">My Skills</p>
         <h2 className="skills-section__heading">My Expertise</h2>

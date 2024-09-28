@@ -5,7 +5,7 @@ import './Testimonials.css';
 
 const Testimonials = () => {
   return (
-    <section id="testimonial" className="testimonial-section">
+    <section id="testimonial" className="section-container-flex testimonial-section">
       <div className="portfolio__container-box">
         <div className="portfolio__container">
           <p className="sub-title">Clients Feedback</p>
